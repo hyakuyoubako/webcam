@@ -11,7 +11,7 @@ cd /home/pi/webcam
 if [ ! -e /var/www/html/date`date "+%Y%m%d-%H"`.jpg ] ; then
 
 	#ウェブカメラで撮影する。
-	/usr/bin/fswebcam -D 3 -S 10 -f 10 /home/pi/pic/'date%Y%m%d-%H'.jpg
+	/usr/bin/fswebcam -D 3 -S 10 -f 10 /home/pi/pic/date`date "+%Y%m%d-%H"`.jpg
 	sleep 2s
 
 #fswebcam -r 3 -s 3 /home/pi/pic/'date%Y%m%d-%H'.jpg
