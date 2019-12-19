@@ -7,7 +7,7 @@
 #ディレクトリをカレントにする
 cd /home/pi/webcam
 
-#撮影できたか判断2019-12-10osanai
+#撮影できたか判断2019-12-10
 if [ ! -e /var/www/html/date`date "+%Y%m%d-%H"`.jpg ] ; then
 
 	#ウェブカメラで撮影する。
