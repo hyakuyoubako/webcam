@@ -1,5 +1,5 @@
 #!/bin/sh
-#1時間ごとにwebcamで撮影、保存するスクリプト2019-11-25
+#1時間ごとにwebcamで撮影、保存するスクリプト2019-11-25　おー
 
 #cd `dirname $0`
 #fswebcam -f 10 -s 10 -r 320x200 /home/pi/pic/'date%Y%m%d-%H%M%S'.jpg
